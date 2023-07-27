@@ -1,0 +1,56 @@
+/* Destination.css */
+
+/* Set a blue background for the entire page */
+body {
+    background-color: #f0f5f9;
+  }
+  
+  /* Style the container */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Style the cards */
+  .card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Style the card images */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Style the card titles and text */
+  .card-title,
+  .card-text {
+    color: #333;
+  }
+  
+  /* Style the price */
+  .price {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #007bff; /* Blue color for the price */
+  }
+  
+  /* Style the card container */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  /* Media query for responsive layout */
+  @media (max-width: 768px) {
+    .row {
+      flex-wrap: wrap;
+    }
+  }
+  

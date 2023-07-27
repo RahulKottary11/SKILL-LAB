@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar-size {
+    padding: 10px;
+  }
+  
+  .navbar {
+    background-color: #0b7beb; /* Set the background color for the navbar */
+  }
+  
+  .navbar-brand {
+    color: #e4d8d8; /* Set the text color for the brand/logo */
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px; /* Add some spacing between the logo and text */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Push the navigation links to the right */
+  }
+  
+  .nav-link {
+    color: #fff; /* Set the text color for the navigation links */
+    font-size: 18px;
+    text-transform: uppercase; /* Convert link text to uppercase */
+    margin-left: 20px; /* Add spacing between the navigation links */
+  }
+  
+  .nav-link:hover {
+    color: #926512; /* Set the text color on hover */
+  }
+  
+  /* Optional: Add a box shadow to the navbar */
+  .navbar {
+    box-shadow: 0 2px 4px rgba(116, 41, 41, 0.1);
+  }
+  

@@ -1,0 +1,65 @@
+/* ...Previous CSS styles */
+
+.home-carousel {
+    max-height: 400px; /* Adjust the height of the carousel */
+  }
+  
+  .carousel-inner {
+    border-radius: 10px; /* Add border radius to the carousel */
+    overflow: hidden; /* Hide overflow of carousel slides */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Adjust the size of the carousel navigation controls */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Make the carousel navigation icons white */
+  }
+  
+  .carousel-indicators {
+    bottom: -30px; /* Position the carousel indicators below the carousel */
+  }
+  
+  .carousel-indicators li {
+    width: 8px; /* Adjust the size of the carousel indicators */
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff; /* Set the background color of the carousel indicators */
+    border: 2px solid #333; /* Add a border to the carousel indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333; /* Set the active indicator color */
+    border-color: #333;
+  }
+  
+  /* Set a fixed height and width for the carousel images */
+  .carousel-item img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover; /* Ensure the images maintain their aspect ratio */
+  }
+  .carousel-image {
+    object-fit: cover; /* Adjust image to cover entire container without distortion */
+    height: 50%; /* Set height to 100% to fit within the carousel container */
+    width: 50%; /* Set width to 100% to fit within the carousel container */
+  }
+  .container {
+    padding: 20px;
+    background-color: #f0f5f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
